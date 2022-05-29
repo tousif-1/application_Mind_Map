@@ -1,0 +1,17 @@
+Juice shop
+  |
+  |
+   Search page
+     |
+      /search.hmtl
+        |
+          GET /search?q=apple
+            | 
+              q [search request parameter]
+     |
+     | 
+       Products page
+         |
+           /product.html
+             |
+               q=apple [Response]
